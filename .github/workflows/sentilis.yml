@@ -6,7 +6,7 @@ on:
       - master
     paths:
       - README.md
-      - .github/workflows/sentilis-bio.yml
+      - .github/workflows/sentilis.yml
   workflow_dispatch:
 
 jobs:
@@ -24,6 +24,14 @@ jobs:
 
       - name: Authenticate with Sentilis
         run: sentilis auth login ${{ secrets.SENTILIS_TOKEN }}
+
+      - name: Add front matter to README
+        run: |
+          if ! head -n 1 README.md | grep -qx -- '---'; then
+            printf -- '---\nname: Awesome Odoo\n---\n' | cat - README.md > README.tmp
+            mv README.tmp README.md
+          fi
+          head -n 5 README.md
 
       - name: Push bio
         run: sentilis bio push README.md

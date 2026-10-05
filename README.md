@@ -1,6 +1,3 @@
----
-name: Awesome Odoo
----
 [![GitHub Repo stars](https://img.shields.io/github/stars/sentilis/awesome-odoo?style=social)](https://github.com/sentilis/awesome-odoo)
 ![GitHub](https://img.shields.io/github/license/sentilis/awesome-odoo)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/sentilis/awesome-odoo/master)
@@ -15,6 +12,7 @@ A curated list of awesome Odoo frameworks, libraries and software. Inspired by [
 
 ## Table of Contents
 
+* [Core & Frameworks](#core--frameworks)
 * [AI](#ai)
 * [Website](#website)
 * [Sales](#sales)
@@ -31,12 +29,19 @@ A curated list of awesome Odoo frameworks, libraries and software. Inspired by [
 * [Developers](#developers)
 * [Resources](#resources)
   * [Official](#official)
+  * [Community](#community)
   * [X](#X)
   * [Facebook](#facebook)  
   * [Reddit](#reddit)
   
+### Core & Frameworks
+
+* [Odoo](https://github.com/odoo/odoo) - Official Odoo source code.
+* [Owl](https://github.com/odoo/owl) - Modern TypeScript UI framework used by Odoo.
+* [OCB](https://github.com/OCA/OCB) - Odoo Community Backports.
+
 ### AI
-- [System Prompt for Version Migration](https://github.com/sentilis/awesome-odoo/blob/master/prompts/migrate-odoo-modules.md) - Stop Rewriting Odoo Modules by Hand: A System Prompt for Version Migration.
+- [System Prompt for Version Migration](https://github.com/nodenlabs/odoo-devx/tree/main/odoo-module-migration) - Stop Rewriting Odoo Modules by Hand: A System Prompt for Version Migration.
 
 ### Website
 
@@ -73,8 +78,11 @@ A curated list of awesome Odoo frameworks, libraries and software. Inspired by [
 * [Odoo Module Packaging](https://github.com/sentilis/awesome-odoo/blob/master/tools/packaging.py) - A simple python script that compress odoo module with its dependency modules in a file ZIP.
 * [odoo Module Community](https://github.com/sentilis/awesome-odoo/blob/master/tools/publish.sh) - This script is ideal for a private repository that publishes modules to a public repository for read only.
 * [OpenUpgrade](https://github.com/OCA/OpenUpgrade) - Aims to provide an Open Source upgrade path for Odoo. This is  initiative under the OCA umbrella.
+* [openupgradelib](https://github.com/OCA/openupgradelib) - Library of helpers for Odoo migration scripts.
+
 ### Developers
 
+* [OCA Queue](https://github.com/OCA/queue) - Asynchronous job queue, batch jobs and scheduled queue jobs.
 * [Odoo celery](https://github.com/novacode-nl/odoo-celery) - Connect Odoo (API) with Celery (Distributed Task Queue)
 * [backup.sh](https://medium.com/@josehbez/simple-cli-odoo-backup-60d91bc3b9ec) - Bash script that uses the default URL /web/database/backup to generate backups.
 * [Kodoo](https://github.com/chermed/kodoo) - Terminal UI for Odoo
@@ -96,6 +104,10 @@ A curated list of awesome Odoo frameworks, libraries and software. Inspired by [
 * https://github.com/odoo/odoo - Github
 * https://www.odoo.com/page/docs - Documentation 
 * https://www.odoo.com/elearning - Tutorials
+
+### Community
+
+* [Odoo Community Association (OCA)](https://github.com/OCA) - The main open-source community for Odoo, maintaining hundreds of repositories covering accounting, logistics, manufacturing, integrations, localization, web, and developer tools.
 
 ### X
 
