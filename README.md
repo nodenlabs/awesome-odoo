@@ -42,6 +42,7 @@ A curated list of awesome Odoo frameworks, libraries and software. Inspired by [
 
 ### AI
 - [System Prompt for Version Migration](https://github.com/nodenlabs/odoo-devx/tree/main/odoo-module-migration) - Stop Rewriting Odoo Modules by Hand: A System Prompt for Version Migration.
+- [Odoo + AI agents: real finance cases](https://agentsfinance.io/erps/odoo/) - Claude, MCP servers and n8n on Odoo accounting (collections, withholdings, quarter close), with sources and copyable configs
 
 ### Website
 
