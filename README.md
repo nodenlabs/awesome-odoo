@@ -51,6 +51,7 @@ A curated list of awesome Odoo frameworks, libraries and software. Inspired by [
 ### Sales
 
 * [MercadoLibre](https://github.com/ctmil/meli_oerp) - Module synchronize MercadoLibre with Odoo
+* [Tarvyx](https://tarvyx.com/odoo-order-automation) - Reads B2B orders from email, PDF and chat messages and creates them in Odoo as draft quotations for a person to review.
 
 <!-- ## Finance -->
 
